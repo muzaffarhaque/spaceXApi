@@ -237,7 +237,7 @@ export default function Login(): JSX.Element {
                   SpaceX, is an American space technology company headquartered
                   at the Starbase development site near Brownsville, Texas.
                 </p>
-                <NavLink to="/home">
+                <NavLink to="/">
                   <button className="primary-btn mx-auto" >Get start</button>
                 </NavLink>
               </div>

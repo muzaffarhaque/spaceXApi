@@ -19,7 +19,7 @@ interface PropsData {
                 <p className='date'>{data?.first_flight || "3th May"}</p>
                 <p>{data?.company || 'space X'}</p>
             </div>
-            <NavLink to={`rocket-detail/${data?.id}`} className="btn-primary">Learn More </NavLink>
+            <NavLink to={`/rocket-detail/${data?.id}`} className="btn-primary">Learn More </NavLink>
         </div>
     </div>
     )

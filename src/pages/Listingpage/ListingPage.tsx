@@ -60,7 +60,7 @@ const ListingPage: FC = () => {
             <div className="search-header-hero">
                 <div className="container">
                       <div className="header-details">
-                                        <Link to="/home" ><IoArrowBackCircle className="" /></Link>
+                                        <Link to="/" ><IoArrowBackCircle className="" /></Link>
                                         <p>{`Home > All > ${searchParams.get("key")}`}</p>
                                     </div>
                     <div className="search-filed-frame">
