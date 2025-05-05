@@ -26,7 +26,7 @@ export const routes = [
 		errorElement:<ErrorPage/>,
 		children: [
 			{
-				path: '/home',
+				path: '/',
 				element: <Landing/>,
 			},
 			{
@@ -38,7 +38,7 @@ export const routes = [
 				element: <ListingPage />
 			},
 			{
-				path: '/home/rocket-detail/:id',
+				path: '/rocket-detail/:id',
 				element: <ProtectedRoute children={<RocketDetails/>}/>
 			},
 			// {
